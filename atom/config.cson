@@ -1,0 +1,36 @@
+"*":
+  "":
+    basic:
+      html:
+        text:
+          editor:
+            tabLength: 3
+    css:
+      source:
+        editor:
+          tabLength: 3
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "whitespace"
+    ]
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "IBM Plex Mono"
+    fontSize: 16
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-…–—“”‘”"
+    preferredLineLength: 85
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+    tabType: "auto"
+  jslint:
+    jslintVersion: "es6"
+  "linter-ui-default":
+    panelHeight: 69
+  welcome:
+    showOnStartup: false
