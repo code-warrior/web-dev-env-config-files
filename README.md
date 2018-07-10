@@ -6,6 +6,8 @@
 
 This repository contains configuration, or config, files required to stand up a web development environment in Mac OS X, v10.13.x, for classes in web development and design that I teach. Windows is only partially supported. The config files create an environment that makes it easy for me to help you, and for you to help each other.
 
+**Note**: All the following files expect [IBM’s Plex Mono font](https://github.com/IBM/plex/releases/tag/v1.0.2) to already have been installed onto your machine.
+
 ---
 
 ## Spectacle keyboard shortcuts file (Mac only)
