@@ -103,9 +103,7 @@ C:\Users\YOUR_USERNAME\AppData\Roaming\Sublime Text 3\Packages\
 
 **Burden**: *~10 minutes*
 
-A file called `.editorconfig` exists in the root of this folder. You can’t see it, because filenames that start with a dot are hidden from the user by the operating system so users can’t mistakenly remove the file.
-
-This file needs to be moved into your home folder.
+A file called `.editorconfig` exists in the root of this folder. You can’t see it, because filenames that start with a dot are hidden from the user by the operating system so users can’t mistakenly remove the file. This file needs to be moved into your home folder.
 
 In Mac OS X, type `⌘ + shift + .` to show `.editorconfig`. Drag the file to your home folder.
 
