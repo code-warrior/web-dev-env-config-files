@@ -12,8 +12,9 @@ This repository contains configuration, or config, files required to stand up a 
 
 **Burden**: *~5 minutes*
 
-1. Copy the file `Shortcuts.json` in this folder into `~/Library/Application Support/Spectacle/`.
-2. Locate Spectacle’s icon in the status menu section of the menu bar. Click it and compare it to `spectacle-keyboard-shortcuts.png`. They should be identical.
+1. Copy the file `Shortcuts.json` into `~/Library/Application Support/Spectacle/`.
+2. Restart Spectacle.
+3. Locate Spectacle’s icon in the status menu section of the menu bar. Click it and compare it to `spectacle-keyboard-shortcuts.png`. They should be identical.
 
 ---
 
