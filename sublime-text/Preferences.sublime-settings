@@ -9,7 +9,6 @@
    "caret_extra_width": 0,
    "caret_style": "phase",
    "close_windows_when_empty": true,
-   "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
    "copy_with_empty_selection": false,
    "create_window_at_startup": true,
    "default_line_ending": "unix",
