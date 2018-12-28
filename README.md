@@ -110,3 +110,15 @@ A file called `.editorconfig` exists in the root of this folder. You can’t see
 In Mac OS X, type `⌘ + shift + .` to show `.editorconfig`. Drag the file into your home folder.
 
 In Windows, read [View hidden files and folders in Windows 10](https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10).
+
+---
+
+## Sass Linter
+
+**Burden**: *~4 minutes*
+
+A YAML file called `.sass-lint.yml` exists in the `sass` folder. This file needs to be moved into your home folder.
+
+In Mac OS X, type `⌘ + shift + .` to show hidden files, then drag the file into your home folder.
+
+In Windows, read [View hidden files and folders in Windows 10](https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10).
