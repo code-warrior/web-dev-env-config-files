@@ -3,6 +3,7 @@
     closeDeletedFileTabs: true
     disabledPackages: [
       "whitespace"
+      "linter-sass-lint"
     ]
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
