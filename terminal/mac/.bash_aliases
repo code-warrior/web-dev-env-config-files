@@ -7,6 +7,7 @@ alias cp='cp -iv'
 alias desktop='cd ~/Desktop'
 alias df='df -h'
 alias du='du -h'
+alias f='open -a Finder ./'          # Opens current directory in MacOS Finder
 alias grep='grep --color'
 alias home='cd'
 alias l='ls -l -G'
