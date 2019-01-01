@@ -3,7 +3,7 @@ alias st='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 # Environment
-alias cp='cp -i'
+alias cp='cp -iv'
 alias desktop='cd ~/Desktop'
 alias df='df -h'
 alias du='du -h'
