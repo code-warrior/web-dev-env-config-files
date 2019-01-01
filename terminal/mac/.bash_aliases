@@ -6,6 +6,7 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias ~="cd ~"                       # Go Home
 alias c='clear'                      # Clear terminal display
 alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete" # Recursively delete .DS_Store files
+alias cleanupLS="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder" # Clean up LaunchServices to remove duplicates in the "Open With" menu
 alias cp='cp -iv'
 alias desktop='cd ~/Desktop'
 alias df='df -h'
