@@ -20,6 +20,7 @@ alias lla='ls -d .*'
 alias ls='ls -G'
 alias lsd='ls -d .*'
 alias mv='mv -i'
+alias path='echo -e ${PATH//:/\\n}'  # Echo all executable Paths
 alias rm='rm -i'
 alias sizeof='du -hs'
 
