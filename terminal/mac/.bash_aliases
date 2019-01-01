@@ -28,3 +28,5 @@ alias which='type -all'              # Find executables
 # Sass
 alias sass='sass --unix-newlines --sourcemap=none --style expanded --watch'
 alias scss='scss --unix-newlines --sourcemap=none --style expanded --watch'
+
+mcd () { mkdir -p "$1" && cd "$1"; }    # mcd:   Makes new directory and jumps inside
