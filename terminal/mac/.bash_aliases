@@ -5,6 +5,7 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 # Environment
 alias ~="cd ~"                       # Go Home
 alias c='clear'                      # Clear terminal display
+alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete" # Recursively delete .DS_Store files
 alias cp='cp -iv'
 alias desktop='cd ~/Desktop'
 alias df='df -h'
