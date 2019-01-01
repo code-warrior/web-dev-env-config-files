@@ -23,6 +23,7 @@ alias mv='mv -i'
 alias path='echo -e ${PATH//:/\\n}'  # Echo all executable Paths
 alias rm='rm -i'
 alias sizeof='du -hs'
+alias which='type -all'              # Find executables
 
 # Sass
 alias sass='sass --unix-newlines --sourcemap=none --style expanded --watch'
