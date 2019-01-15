@@ -5,6 +5,7 @@
       "whitespace"
       "linter-sass-lint"
       "linter-eslint"
+      "linter-stylelint"
     ]
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
