@@ -4,6 +4,7 @@
     disabledPackages: [
       "whitespace"
       "linter-sass-lint"
+      "linter-eslint"
     ]
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
