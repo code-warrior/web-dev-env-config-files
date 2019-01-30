@@ -65,3 +65,8 @@ if [ -e /dev/clipboard ]; then
    alias pbcopy='cat >/dev/clipboard'
    alias pbpaste='cat /dev/clipboard'
 fi
+
+#
+# A copy of Mac’s open command
+#
+alias open='cygstart'
