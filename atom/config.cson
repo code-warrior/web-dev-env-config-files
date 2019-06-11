@@ -51,6 +51,8 @@
       "source.rst"
       "text.restructuredtext"
     ]
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
 ".basic.html.text":
