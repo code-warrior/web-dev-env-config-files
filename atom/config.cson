@@ -7,6 +7,16 @@
       "linter-eslint"
       "linter-stylelint"
     ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".idea"
+    ]
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
   editor:
