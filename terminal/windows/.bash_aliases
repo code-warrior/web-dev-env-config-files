@@ -9,8 +9,8 @@
 #
 # Sublime Text
 #
-alias subl='/cygdrive/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe &'
-alias st='/cygdrive/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe &'
+alias subl='/cygdrive/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe'
+alias st='/cygdrive/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe'
 
 #
 # Browser
