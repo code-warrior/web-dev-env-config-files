@@ -74,6 +74,14 @@ atom () {
    fi
 }
 
+processing () {
+   if [ $# -eq 1 ]; then
+      /usr/local/bin/processing-java --sketch=$(cygpath -aw .)/"$1" --run
+   else
+      echo 'Only the Processing command was found on the command line. The path to the sketch much also be included.'
+   fi
+}
+
 #
 # A copy of Mac’s open command
 #
