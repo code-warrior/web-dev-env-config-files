@@ -45,8 +45,8 @@ alias whence='type -a'
 #
 # Programming Languages
 #
-alias sass='sass --unix-newlines --sourcemap=none --watch --style expanded'
-alias scss='scss --unix-newlines --sourcemap=none --watch --style expanded'
+alias sass='sass --stop-on-error --unicode --update --watch'
+alias scss='scss --stop-on-error --unicode --update --watch'
 
 #
 # External Drives
