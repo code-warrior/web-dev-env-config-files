@@ -82,6 +82,15 @@ If Cygwin is slow to start, read the following, which suggests two methods for f
 
 ---
 
+## Install Stylelint’s Config File
+
+**Burden**: *~2 minutes*
+
+1. Open the enclosed `css` folder.
+2. Move `.stylelintrc.json` to your home folder, either in Windows or macOS.
+
+---
+
 ## Sublime Text Preferences Files (Mac and Windows)
 
 **Burden**: *~2 minutes*
