@@ -57,10 +57,10 @@
     showOnStartup: false
 ".basic.html.text":
   editor:
-    tabLength: 3
+    tabLength: 2
 ".css.source":
   editor:
-    tabLength: 3
+    tabLength: 2
 ".scss.source":
   editor:
-    tabLength: 3
+    tabLength: 2

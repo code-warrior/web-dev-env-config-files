@@ -77,7 +77,7 @@ rules:
   indentation:
     - 1
     -
-      size: 3
+      size: 2
   leading-zero: 1
   max-line-length: 0
   max-file-line-count: 0
