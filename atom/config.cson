@@ -5,7 +5,6 @@
       "whitespace"
       "linter-sass-lint"
       "linter-eslint"
-      "linter-stylelint"
     ]
     ignoredNames: [
       ".git"
@@ -39,6 +38,8 @@
     eslintrcPath: "~/.eslintrc.json"
   "linter-sass-lint":
     configFile: "~/.sass-lint.yml"
+  "linter-stylelint":
+    showIgnored: true
   "linter-ui-default":
     panelHeight: 69
   "spell-check":
