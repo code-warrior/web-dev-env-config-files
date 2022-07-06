@@ -29,13 +29,21 @@ fi
 # Set up the path
 PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:~/bin:.
 
-# Use Atom as your default editor
-EDITOR='atom -nw'
+# Use VS Code as your default editor
+EDITOR='code -nw'
 export EDITOR
 
-# Or you can use Sublime Text
+# Or Atom
+# EDITOR='atom -nw'
+# export EDITOR
+
+# Or Sublime Text
 # EDITOR='subl -n -w'
-#export EDITOR
+# export EDITOR
+
+# Or Emacs
+# EDITOR=/usr/bin/emacs
+# export EDITOR
 
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
