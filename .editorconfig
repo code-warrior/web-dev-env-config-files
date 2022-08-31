@@ -12,7 +12,7 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.js]
+[*.{js,java}]
 indent_size = 4
 
 [*.{html,css,sass,scss,json,yml}]
