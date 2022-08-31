@@ -16,7 +16,7 @@
     "selector-pseudo-element-no-unknown": true,
     "selector-type-no-unknown": true,
     "function-url-no-scheme-relative": true,
-    "unit-disallowed-list": ["in", "pc", "pt", "cm", "mm"],
+    "unit-disallowed-list": ["in", "pc", "pt", "cm", "mm", "Q"],
     "shorthand-property-no-redundant-values": true,
     "declaration-block-no-redundant-longhand-properties": true,
     "declaration-no-important": true,
