@@ -31,7 +31,10 @@ Spectacle was retired in the fall of 2019. Thus, *do not* use Spectacle on new m
 ---
 
 ## Terminal Theme and Environment Files (Mac and Windows)
-In order to get your environment working properly, we need to install a color theme into your command line environment, or CLI, then install a handful of configuration files.
+In order to get your environment working properly, we need to...
+* Install a color theme into your command line environment, or CLI (Mac and Windows).
+* Install a handful of configuration files (Mac and Windows).
+* Install [Oh my BASH!](https://ohmybash.nntoan.com/) (Mac).
 
 ### Install The Terminal Color Theme (Mac)
 **Burden**: *~3 minutes*
