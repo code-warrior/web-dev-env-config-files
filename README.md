@@ -31,7 +31,7 @@ Spectacle was retired in the fall of 2019. Thus, the shortcuts file for Spectacl
 ## Terminal Theme and Environment Files (Mac and Windows)
 In order to get your environment working properly, we need to install a color theme into your command line environment, or CLI, then install a handful of configuration files.
 
-### Install The Terminal Color Theme (Mac only)
+### Install The Terminal Color Theme (Mac)
 **Burden**: *~3 minutes*
 
 1. Double-click the `TomorrowNight.terminal` file inside the folder called `terminal`. This will launch a Terminal window with the new theme.
@@ -41,7 +41,7 @@ In order to get your environment working properly, we need to install a color th
 5. Click `Default` along the bottom.
 6. Close the window: `⌘ + W`.
 
-### Install The Bash Environment (Mac only)
+### Install The Bash Environment (Mac)
 **Burden**: *~5 minutes*
 
 1. Open the `terminal/mac` folder.
@@ -52,7 +52,7 @@ In order to get your environment working properly, we need to install a color th
 6. Move these files into your home folder.
 7. Launch, or relaunch, The Terminal.
 
-### Install The Color Theme and Bash Environment (Windows only)
+### Install The Color Theme and Bash Environment (Windows)
 **Burden**: *~10 minutes*
 
 1. Move all the dot files in the `windows` folder into your Cygwin home folder, which is available at `C:\cygwin\home\USER_NAME`. `USER_NAME` is your Windows user name. (Your home folder is also available in Cygwin at `/cygdrive/c/cygwin/home/USER_NAME`.)
