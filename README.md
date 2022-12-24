@@ -87,24 +87,6 @@ If Cygwin is slow to start, read the following, which suggests two methods for f
 
 ---
 
-## Atom Editor Config File and Packages (Mac and Windows)
-**Burden**: *~8 minutes*
-
-1. Move the file `config.cson` in the `atom` folder into your home folder.
-2. Launch Atom.
-3. Go to `Packages | Settings View | Install Packages/Themes`
-4. In the text field at the top, type “linter-stylelint” and then click `Packages`.
-5. Find `linter-stylelint 4.5.1` and click `Install`.
-6. In the text field at the top, type “emmet” and then click `Packages`.
-7. Find `emmet 2.x.x` and click `Install`.
-8. In the same text field, type “editorconfig” and then click `Packages`.
-9. Find `editorconfig 2.x.x` and click `Install`.
-10. Type “w3c” in the text field, then click `Packages`.
-11. Find `w3c-validation 0.x.x` and click `Install`.
-12. Restart Atom.
-
----
-
 ## Install Stylelint’s Config File
 **Burden**: *~2 minutes*
 
