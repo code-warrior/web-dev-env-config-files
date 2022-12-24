@@ -4,7 +4,7 @@
 
 **Please follow these instructions carefully**
 
-This repository contains configuration, or config, files required to stand up a web development environment in Mac OS X, v10.13.x, for classes in web development and design that I teach. Windows is only partially supported. The config files create an environment that makes it easy for me to help you, and for you to help each other.
+This repository contains config, or configuration, files required to stand up a web development environment in Mac OS X for classes in web development and design that I teach. Windows is only partially supported. The config files create an environment that makes it easy for me to help you, and for you to help each other.
 
 **Note**: Install [IBM’s Plex Mono typeface](https://github.com/IBM/plex/releases/tag/v6.1.1) before you continue.
 
