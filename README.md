@@ -20,7 +20,7 @@ This repository contains configuration, or config, files required to stand up a 
 6. In the file chooser from step 4, navigate to the `rectangle` folder in this repository, then choose the `RectangleConfig.json` file.
 
 ### Spectacle (Sunset, as of Nov 2019)
-Spectacle was retired in the fall of 2019. Thus, the shortcuts file for Spectacle is being kept here for archival purposes. Rectangle is currently
+Spectacle was retired in the fall of 2019. Thus, *do not* use Spectacle on new machines; use Rectangle. The shortcuts file for Spectacle is being kept here for archival purposes only.
 
 1. Move the file `Shortcuts.json` into `~/Library/Application Support/Spectacle/`.
 2. Restart Spectacle.
