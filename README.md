@@ -57,6 +57,19 @@ In order to get your environment working properly, we need to...
 6. Move these files into your home folder.
 7. Launch, or relaunch, The Terminal.
 
+### Install Oh my BASH! (Mac)
+**Burden**: *~2 minutes*
+
+1. Launch The Terminal.
+2. Paste the following command into The Terminal:
+```shell
+$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+```
+
+**Note**: If step 2 doesn’t work, visit the [Oh my BASH! site](https://ohmybash.nntoan.com/).
+
+**Note**: The Mac version of the CLI install is now done. Please proceed to the next section.
+
 ### Install The Color Theme and Bash Environment (Windows)
 **Burden**: *~10 minutes*
 
