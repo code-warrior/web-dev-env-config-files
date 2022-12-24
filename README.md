@@ -1,7 +1,5 @@
 # Web Development Environment Configuration Files
-
 **Burden**: *~35 minutes*
-
 **Please follow these instructions carefully**
 
 This repository contains configuration, or config, files required to stand up a web development environment in Mac OS X, v10.13.x, for classes in web development and design that I teach. Windows is only partially supported. The config files create an environment that makes it easy for me to help you, and for you to help each other.
@@ -31,11 +29,9 @@ Spectacle was retired in the fall of 2019. Thus, the shortcuts file for Spectacl
 ---
 
 ## Terminal Theme and Environment Files (Mac and Windows)
-
 In order to get your environment working properly, we need to install a color theme into your command line environment, or CLI, then install a handful of configuration files.
 
 ### Install The Terminal Color Theme (Mac only)
-
 **Burden**: *~3 minutes*
 
 1. Double-click the `TomorrowNight.terminal` file inside the folder called `terminal`. This will launch a Terminal window with the new theme.
@@ -46,7 +42,6 @@ In order to get your environment working properly, we need to install a color th
 6. Close the window: `⌘ + W`.
 
 ### Install The Bash Environment (Mac only)
-
 **Burden**: *~5 minutes*
 
 1. Open the `terminal/mac` folder.
@@ -58,7 +53,6 @@ In order to get your environment working properly, we need to install a color th
 7. Launch, or relaunch, The Terminal.
 
 ### Install The Color Theme and Bash Environment (Windows only)
-
 **Burden**: *~10 minutes*
 
 1. Move all the dot files in the `windows` folder into your Cygwin home folder, which is available at `C:\cygwin\home\USER_NAME`. `USER_NAME` is your Windows user name. (Your home folder is also available in Cygwin at `/cygdrive/c/cygwin/home/USER_NAME`.)
@@ -74,7 +68,6 @@ If Cygwin is slow to start, read the following, which suggests two methods for f
 ---
 
 ## Atom Editor Config File and Packages (Mac and Windows)
-
 **Burden**: *~8 minutes*
 
 1. Move the file `config.cson` in the `atom` folder into your home folder.
@@ -93,7 +86,6 @@ If Cygwin is slow to start, read the following, which suggests two methods for f
 ---
 
 ## Install Stylelint’s Config File
-
 **Burden**: *~2 minutes*
 
 1. Open the enclosed `css` folder.
@@ -102,7 +94,6 @@ If Cygwin is slow to start, read the following, which suggests two methods for f
 ---
 
 ## Sublime Text Preferences Files (Mac and Windows)
-
 **Burden**: *~2 minutes*
 
 1. Open the `sublime-text` folder.
@@ -123,7 +114,6 @@ C:\Users\YOUR_USERNAME\AppData\Roaming\Sublime Text 3\Packages\
 ---
 
 ## Editorconfig
-
 **Burden**: *~10 minutes*
 
 A file called `.editorconfig` exists in the root of this folder. You can’t see it, because filenames that start with a dot are hidden from the user by the operating system so users can’t mistakenly remove the file. This file needs to be moved into your home folder.
@@ -135,11 +125,9 @@ In Windows, read [View hidden files and folders in Windows 10](https://support.m
 ---
 
 ## Sass Linter
-
 **Burden**: *~4 minutes*
 
 A YAML file called `.sass-lint.yml` exists in the `sass` folder. This file needs to be moved into your home folder.
-
 In Mac OS X, type `⌘ + shift + .` to show hidden files, then drag the file into your home folder.
 
 In Windows, read [View hidden files and folders in Windows 10](https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10).
