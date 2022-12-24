@@ -10,11 +10,21 @@ This repository contains configuration, or config, files required to stand up a 
 
 ---
 
-## Spectacle keyboard shortcuts file (Mac only)
-
+## Window Management (Mac)
 **Burden**: *~5 minutes*
 
-1. Copy the file `Shortcuts.json` into `~/Library/Application Support/Spectacle/`.
+### Rectangle
+1. Download [Rectangle](https://rectangleapp.com/), if you haven’t already.
+2. Launch Rectangle.
+3. Click the Rectangle icon in the menu bar, then choose `Preferences...`.
+4. Click the settings cog wheel along the top, on the right.
+5. Click the `Import` button at the bottom.
+6. In the file chooser from step 4, navigate to the `rectangle` folder in this repository, then choose the `RectangleConfig.json` file.
+
+### Spectacle (Sunset, as of Nov 2019)
+Spectacle was retired in the fall of 2019. Thus, the shortcuts file for Spectacle is being kept here for archival purposes. Rectangle is currently
+
+1. Move the file `Shortcuts.json` into `~/Library/Application Support/Spectacle/`.
 2. Restart Spectacle.
 3. Locate Spectacle’s icon in the status menu section of the menu bar. Click it and compare it to `spectacle-keyboard-shortcuts.png`. They should be identical.
 
