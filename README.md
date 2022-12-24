@@ -71,7 +71,7 @@ $ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/ma
 **Note**: The Mac version of the CLI install is now done. Please proceed to the next section.
 
 ### Install The Color Theme and Bash Environment (Windows)
-**Burden**: *~10 minutes*
+**Burden**: *~5 minutes*
 
 1. Move all the dot files in the `windows` folder into your Cygwin home folder, which is available at `C:\cygwin\home\USER_NAME`. `USER_NAME` is your Windows user name. (Your home folder is also available in Cygwin at `/cygdrive/c/cygwin/home/USER_NAME`.)
 3. Open the `terminal/git-env-for-mac-and-windows` folder. You should see `.git_aliases`, `.git-completion.sh`, and `.git-prompt.sh`.
