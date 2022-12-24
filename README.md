@@ -1,6 +1,6 @@
 # Web Development Environment Configuration Files
 
-**Burden**: *~35 minutes*
+**Burden**: *~30 minutes*
 
 **Please follow these instructions carefully**
 
