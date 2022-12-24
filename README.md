@@ -73,13 +73,15 @@ $ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/ma
 ### Install The Color Theme and Bash Environment (Windows)
 **Burden**: *~5 minutes*
 
-1. Move all the dot files in the `windows` folder into your Cygwin home folder, which is available at `C:\cygwin\home\USER_NAME`. `USER_NAME` is your Windows user name. (Your home folder is also available in Cygwin at `/cygdrive/c/cygwin/home/USER_NAME`.)
-3. Open the `terminal/git-env-for-mac-and-windows` folder. You should see `.git_aliases`, `.git-completion.sh`, and `.git-prompt.sh`.
-4. Move these files into your home folder.
-5. Launch Cygwin.
+**Note**: The following assumes you’ve installed [Cygwin](https://cygwin.com/). If you haven’t, install it, then come back.
+
+There are a handful of files that start with a dot (`.`) in the folders mentioned below. These files are hidden from view in Windows. Read [View hidden files and folders in Windows](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-97fbc472-c603-9d90-91d0-1166d1d9f4b5) to learn how to view them.
+
+1. Move all the dot files in the `windows` folder into your Cygwin home folder, which is available at `C:\cygwin\home\USER_NAME`, where `USER_NAME` is your Windows user name. (Your home folder is also available in Cygwin at `/cygdrive/c/cygwin/home/USER_NAME`.)
+2. Open the `terminal/git-env-for-mac-and-windows` folder. You should see `.git_aliases`, `.git-completion.sh`, and `.git-prompt.sh`. Move these files into your home folder.
+3. Launch Cygwin.
 
 ## Slow Cygwin Startup?
-
 If Cygwin is slow to start, read the following, which suggests two methods for fixing the problem:
 [http://stackoverflow.com/questions/28410852/startup-is-really-slow-for-all-cygwin-applications](http://stackoverflow.com/questions/28410852/startup-is-really-slow-for-all-cygwin-applications)
 
