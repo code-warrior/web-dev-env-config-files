@@ -68,7 +68,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/mast
 
 **Note**: If step 2 doesn’t work, visit the [Oh my BASH! site](https://ohmybash.nntoan.com/).
 
-**Note**: The Mac version of the CLI install is now done. Please proceed to the next section.
+**Note**: The Mac version of your CLI configuration is now complete. Please proceed to the next section.
 
 ### Install The Color Theme and Bash Environment (Windows)
 **Burden**: *~5 minutes*
