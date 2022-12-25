@@ -63,7 +63,7 @@ In order to get your environment working properly, we need to...
 1. Launch The Terminal.
 2. Paste the following command into The Terminal:
 ```shell
-$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ```
 
 **Note**: If step 2 doesn’t work, visit the [Oh my BASH! site](https://ohmybash.nntoan.com/).
