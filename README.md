@@ -94,6 +94,7 @@ Move `.stylelintrc.json` to your home folder, either in Windows or macOS.
 
 ---
 
+## Text Editors
 
 1. Open the `sublime-text` folder.
 2. Place all the files ending in `.sublime-settings` into Sublime Text 3’s `User` folder, which is in the `Packages` folder. If the `User` folder does not exist, create it, making sure to observe case.
