@@ -94,14 +94,18 @@ Move `.stylelintrc.json` to your home folder, either in Windows or macOS.
 
 ---
 
-## Sublime Text Preferences Files (Mac and Windows)
-**Burden**: *~2 minutes*
 
 1. Open the `sublime-text` folder.
 2. Place all the files ending in `.sublime-settings` into Sublime Text 3’s `User` folder, which is in the `Packages` folder. If the `User` folder does not exist, create it, making sure to observe case.
 
+## Sublime Text Preferences File (Mac and Windows)
+**Burden**: *~5 minutes*
 
+**Note**: These instructions are for [Sublime Text 3](https://www.sublimetext.com/3), not the latest version of Sublime Text.
 
+1. Open Sublime Text’s `User` folder, then place it on the side for the moment. In macOS, find it in `~/Library/"Application Support"/"Sublime Text 3"/Packages/`. In Windows, it’s in `C:\Users\YOUR_USERNAME\AppData\Roaming\Sublime Text 3\Packages\`, where `YOUR_USER_NAME` is your Windows username. If the `User` folder does not exist, create it, making sure to observe case.
+2. Open the `sublime-text` folder found in this repo, and place it alongside the `User` folder you opened/created in the previous step.
+3. Place all the files ending in `.sublime-settings` into Sublime Text’s `User` folder.
 
 ---
 
