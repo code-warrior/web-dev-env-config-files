@@ -95,9 +95,12 @@ Move `.stylelintrc.json` to your home folder, either in Windows or macOS.
 ---
 
 ## Text Editors
+### Visual Studio Settings File (Mac and Windows)
+**Burden**: *~2 minutes*
 
-1. Open the `sublime-text` folder.
-2. Place all the files ending in `.sublime-settings` into Sublime Text 3’s `User` folder, which is in the `Packages` folder. If the `User` folder does not exist, create it, making sure to observe case.
+1. Open the `visual-studio-code` folder.
+2. Open `~/Library/"Application Support"/Code/User`.
+3. Place `settings.json` from the `visual-studio-code` folder you opened in step 1 into the `User` folder you opened in step 2.
 
 ## Sublime Text Preferences File (Mac and Windows)
 **Burden**: *~5 minutes*
