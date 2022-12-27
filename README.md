@@ -95,8 +95,8 @@ Move `.stylelintrc.json` to your home folder, either in Windows or macOS.
 ---
 
 ## Text Editors
-### Visual Studio Settings File (Mac and Windows)
 **Burden**: *~2 minutes*
+### Visual Studio (Mac and Windows)
 
 1. Open the `visual-studio-code` folder.
 2. Open `~/Library/"Application Support"/Code/User`.
