@@ -98,6 +98,36 @@ Move `.stylelintrc.json` to your home folder, either in Windows or macOS.
 ### Visual Studio (Mac and Windows)
 **Burden**: *~5 minutes*
 
+#### Extensions
+1. Launch VS Code.
+2. Bring up the extensions marketplace section of VS Code by typing `⌘ + SHIFT + X` in macOS, `CNRL + SHIFT + X` in Windows.
+3. In the text box marked _Search Extensions in Marketplace_, search for then install each of the following:
+
+_**HTML linter/validator**_
+```
+HTMLHint.vscode-htmlhint
+```
+
+_**File formatter**_
+```
+EditorConfig.EditorConfig
+```
+
+_**CSS/Sass linter/validator**_
+```
+stylelint.vscode-stylelint
+```
+
+_**JavaScript linter/validator**_
+```
+dbaeumer.vscode-eslint
+```
+
+_**Markdown linter/validator**_
+```
+DavidAnson.vscode-markdownlint
+```
+
 1. Open the `visual-studio-code` folder.
 2. Open `~/Library/"Application Support"/Code/User`.
 3. Place `settings.json` from the `visual-studio-code` folder you opened in step 1 into the `User` folder you opened in step 2.
