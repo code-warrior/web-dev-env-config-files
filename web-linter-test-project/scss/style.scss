@@ -1,0 +1,28 @@
+$color_name: #bada55;
+
+html
+{
+    body {
+      color: #ffffff;
+    background-colorey: #bada55
+  }
+  }
+
+/*
+  Stylelint should throw errors above this comment. It should not, however, throw
+  errors below this comment.
+*/
+
+main {
+  div {
+    p {
+      color: #fff;
+    }
+  }
+}
+
+.warning {
+  &.danger {
+    background-color: #fff;
+  }
+}
