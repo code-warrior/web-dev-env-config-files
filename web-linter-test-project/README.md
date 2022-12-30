@@ -43,17 +43,3 @@ Finally, let’s ensure that ESLint finds errors in JavaScript files.
 
 1. Locate `js/app.js` in VS Code’s left rail.
 2. Again, you should see squiggly lines indicating problems like indentation issues, the use of backticks, and a missing semicolon.
-
----
-
-## Notes
-
-RENAME FILES
-
-Place my gitconfig in their repo for git hooks
-
-`npm i -g stylelint`
-
-include links to stylelint
-
-**Note**: Some of the following assume you’ve installed NPM packages
