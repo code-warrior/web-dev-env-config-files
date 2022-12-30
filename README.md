@@ -131,10 +131,10 @@ Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use th
 2. Bring up the extensions marketplace section of VS Code by typing `⌘ + SHIFT + X` in macOS, `CNTRL + SHIFT + X` in Windows.
 3. In the text box marked *Search Extensions in Marketplace*, search for then install each of the following:
 
-`HTMLHint.vscode-htmlhint`
-`EditorConfig.EditorConfig`
-`stylelint.vscode-stylelint`
-`dbaeumer.vscode-eslint`
+`HTMLHint.vscode-htmlhint`  
+`EditorConfig.EditorConfig`  
+`stylelint.vscode-stylelint`  
+`dbaeumer.vscode-eslint`  
 `DavidAnson.vscode-markdownlint`
 
 #### Settings File
