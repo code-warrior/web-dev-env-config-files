@@ -2,7 +2,7 @@
 
 **Burden**: *~30 minutes*
 
-**Please follow these instructions carefully**
+**Please follow these instructions *carefully***
 
 This repository contains config, or configuration, files required to stand up a web development environment in Mac OS X for classes in web development and design that I teach. Windows is only partially supported. The config files create an environment that makes it easy for me to help you, and for you to help each other.
 
@@ -11,9 +11,11 @@ This repository contains config, or configuration, files required to stand up a 
 ---
 
 ## Window Management (Mac)
+
 **Burden**: *~5 minutes*
 
 ### Rectangle
+
 1. Download [Rectangle](https://rectangleapp.com/), if you haven’t already.
 2. Launch Rectangle.
 3. Click the Rectangle icon in the menu bar, then choose `Preferences...`.
@@ -22,6 +24,7 @@ This repository contains config, or configuration, files required to stand up a 
 6. In the file chooser from step 4, navigate to the `rectangle` folder in this repository, then choose the `RectangleConfig.json` file.
 
 ### Spectacle (Sunset, as of Nov 2019)
+
 Spectacle was retired in the fall of 2019. Thus, *do not* use Spectacle on new machines; use Rectangle. The shortcuts file for Spectacle is being kept here for archival purposes only.
 
 1. Move the file `Shortcuts.json` into `~/Library/Application Support/Spectacle/`.
@@ -31,12 +34,15 @@ Spectacle was retired in the fall of 2019. Thus, *do not* use Spectacle on new m
 ---
 
 ## Terminal Theme and Environment Files (Mac and Windows)
+
 In order to get your environment working properly, we need to...
+
 * Install a color theme into your command line environment, or CLI (Mac and Windows).
 * Install a handful of configuration files (Mac and Windows).
 * Install [Oh my BASH!](https://ohmybash.nntoan.com/) (Mac).
 
 ### Install The Terminal Color Theme (Mac)
+
 **Burden**: *~3 minutes*
 
 1. Double-click the `TomorrowNight.terminal` file inside the folder called `terminal`. This will launch a Terminal window with the new theme.
@@ -47,6 +53,7 @@ In order to get your environment working properly, we need to...
 6. Close the window: `⌘ + W`.
 
 ### Install The Bash Environment (Mac)
+
 **Burden**: *~5 minutes*
 
 1. Open the `terminal/mac` folder.
@@ -58,10 +65,12 @@ In order to get your environment working properly, we need to...
 7. Launch, or relaunch, The Terminal.
 
 ### Install Oh my BASH! (Mac)
+
 **Burden**: *~2 minutes*
 
 1. Launch The Terminal.
 2. Paste the following command into The Terminal:
+
 ```shell
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ```
@@ -71,6 +80,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/mast
 **Note**: The Mac version of your CLI configuration is now complete. Please proceed to the next section.
 
 ### Install The Color Theme and Bash Environment (Windows)
+
 **Burden**: *~5 minutes*
 
 **Note**: The following assumes you’ve installed [Cygwin](https://cygwin.com/). If you haven’t, install it, then come back.
@@ -82,12 +92,14 @@ There are a handful of files that start with a dot (`.`) in the folders mentione
 3. Launch Cygwin.
 
 ## Slow Cygwin Startup?
+
 If Cygwin is slow to start, read the following, which suggests two methods for fixing the problem:
 [http://stackoverflow.com/questions/28410852/startup-is-really-slow-for-all-cygwin-applications](http://stackoverflow.com/questions/28410852/startup-is-really-slow-for-all-cygwin-applications)
 
 ---
 
 ## Install Stylelint’s Config Files for CSS and Sass
+
 **Burden**: *~5 minutes*
 
 Stylelint lints CSS and Sass code based on a configuration file, as explained [here](https://stylelint.io/user-guide/configure). In our case, the file name used is `.stylelintrc.json`. *Note* the dot at the beginning of the file name.
@@ -102,45 +114,45 @@ Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use th
 ---
 
 ## Text Editors
+
 ### Visual Studio (Mac and Windows)
+
 **Burden**: *~5 minutes*
 
 #### Extensions
+
 1. Launch VS Code.
 2. Bring up the extensions marketplace section of VS Code by typing `⌘ + SHIFT + X` in macOS, `CNRL + SHIFT + X` in Windows.
-3. In the text box marked _Search Extensions in Marketplace_, search for then install each of the following:
+3. In the text box marked *Search Extensions in Marketplace*, search for then install each of the following:
 
-_**HTML linter/validator**_
-```
-HTMLHint.vscode-htmlhint
-```
+##### HTML linter/validator
 
-_**File formatter**_
-```
-EditorConfig.EditorConfig
-```
+`HTMLHint.vscode-htmlhint`
 
-_**CSS/Sass linter/validator**_
-```
-stylelint.vscode-stylelint
-```
+##### File formatter
 
-_**JavaScript linter/validator**_
-```
-dbaeumer.vscode-eslint
-```
+`EditorConfig.EditorConfig`
 
-_**Markdown linter/validator**_
-```
-DavidAnson.vscode-markdownlint
-```
+##### CSS/Sass linter/validator
+
+`stylelint.vscode-stylelint`
+
+##### JavaScript linter/validator
+
+`dbaeumer.vscode-eslint`
+
+##### Markdown linter/validator
+
+`DavidAnson.vscode-markdownlint`
 
 #### Settings File
+
 1. Open the `visual-studio-code` folder.
 2. Open `~/Library/"Application Support"/Code/User`.
 3. Place `settings.json` from the `visual-studio-code` folder you opened in step 1 into the `User` folder you opened in step 2.
 
 ## Sublime Text Preferences File (Mac and Windows)
+
 **Burden**: *~5 minutes*
 
 **Note**: These instructions are for [Sublime Text 3](https://www.sublimetext.com/3), not the latest version of Sublime Text.
@@ -152,6 +164,7 @@ DavidAnson.vscode-markdownlint
 ---
 
 ## EditorConfig
+
 **Burden**: *~1 minute*
 
 A dot file called `.editorconfig` exists in the root of this folder. Drag it into your home folder.
@@ -159,4 +172,5 @@ A dot file called `.editorconfig` exists in the root of this folder. Drag it int
 ---
 
 ## Testing Linters and File Formatting
+
 It‘s now time to check if everything is working. Open the enclosed `web-linter-test-project` project in VS Code and follow the directions in the `README.md` file.
