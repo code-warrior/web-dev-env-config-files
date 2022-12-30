@@ -1,0 +1,30 @@
+HTML {
+  background-color: #abc;
+  height: 1000px;
+}
+
+body
+{
+      color: #zed;
+
+    }
+
+
+
+    p {
+  padding: 4 d; }
+
+/*
+  Stylelint should throw errors above this comment. It should not, however, throw
+  errors below this comment.
+*/
+
+main {
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+  background-color: #abc;
+  color: #def;
+}
