@@ -87,10 +87,17 @@ If Cygwin is slow to start, read the following, which suggests two methods for f
 
 ---
 
-## Install Stylelint’s Config File
-**Burden**: *~2 minutes*
+## Install Stylelint’s Config Files for CSS and Sass
+**Burden**: *~5 minutes*
 
-Move `.stylelintrc.json` to your home folder, either in Windows or macOS.
+Stylelint lints CSS and Sass code based on a configuration file, as explained [here](https://stylelint.io/user-guide/configure). In our case, the file name used is `.stylelintrc.json`. *Note* the dot at the beginning of the file name.
+
+Enclosed are two configuration files that work in concert with Stylelint: `.stylelintrc.json`, the default file name used by Stylelint to lint CSS, and `.scss.stylelintrc.json`, which would need to be renamed `.stylelintrc.json` to lint Sass. These files are mutually-exclusive; you only ever use one at any time.
+
+Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use the included `.stylelintrc.json` to lint CSS. However, if you need to lint Sass, then you’d rename `.stylelintrc.json` → `.css.stylelintrc.json`, then rename `.scss.stylelintrc.json` → `.stylelintrc.json`. To return to linting CSS, you’d do the reverse.
+
+1. Move `.stylelintrc.json` to your home folder, either in Windows or macOS.
+2. Move `.scss.stylelintrc.json` to your home folder.
 
 ---
 
@@ -148,3 +155,8 @@ DavidAnson.vscode-markdownlint
 **Burden**: *~1 minute*
 
 A dot file called `.editorconfig` exists in the root of this folder. Drag it into your home folder.
+
+---
+
+## Testing Linters and File Formatting
+It‘s now time to check if everything is working. Open the enclosed `web-linter-test-project` project in VS Code and follow the directions in the `README.md` file.
