@@ -1,2 +1,54 @@
 {
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["css", "scss", "sass"],
+  "editor.foldingStrategy": "indentation",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "'IBM Plex Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.inlineSuggest.enabled": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    50,
+    60,
+    72,
+    80,
+    85,
+    120
+  ],
+  "editor.suggestSelection": "first",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 1,
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "files.associations": {
+    "*.html": "html"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "scm.alwaysShowProviders": false,
+  "spellright.language": [
+    "en"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "plaintext",
+    "html",
+    "css",
+    "scss",
+    "md",
+    "txt"
+  ],
+  "telemetry.enableTelemetry": false,
+  "window.commandCenter": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "window.zoomLevel": -1,
+  "sonarlint.disableTelemetry": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.accessibilitySupport": "off"
 }
