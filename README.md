@@ -113,6 +113,12 @@ Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use th
 
 ---
 
+## Copy ESLint’s Config File
+
+1. Move `.eslintrc.json` to your home folder, either in Windows or macOS.
+
+---
+
 ## Text Editors
 
 ### Visual Studio (Mac and Windows)
