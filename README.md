@@ -25,7 +25,7 @@ This repository contains config, or configuration, files required to stand up a 
 
 ### Spectacle (Sunset, as of Nov 2019)
 
-Spectacle was retired in the fall of 2019. Thus, *do not* use Spectacle on new machines; use Rectangle. The shortcuts file for Spectacle is being kept here for archival purposes only.
+Spectacle was retired in the fall of 2019. Thus, *do not* use Spectacle on new machines; use Rectangle. **The shortcuts file for Spectacle is being kept here for archival purposes only**.
 
 1. Move the file `Shortcuts.json` into `~/Library/Application Support/Spectacle/`.
 2. Restart Spectacle.
@@ -106,7 +106,7 @@ Stylelint lints CSS and Sass code based on a configuration file, as explained [h
 
 Enclosed are two configuration files that work in concert with Stylelint: `.stylelintrc.json`, the default file name used by Stylelint to lint CSS, and `.scss.stylelintrc.json`, which would need to be renamed `.stylelintrc.json` to lint Sass. These files are mutually-exclusive; you only ever use one at any time.
 
-Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use the included `.stylelintrc.json` to lint CSS. However, if you need to lint Sass, then you’d rename `.stylelintrc.json` → `.css.stylelintrc.json`, then rename `.scss.stylelintrc.json` → `.stylelintrc.json`. To return to linting CSS, you’d do the reverse.
+Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use the included `.stylelintrc.json` to lint CSS. However, if you need to lint Sass, then you’d rename `.stylelintrc.json` → `.css.stylelintrc.json`, then rename `.scss.stylelintrc.json` → `.stylelintrc.json`. To return to linting CSS, do the reverse.
 
 1. Move `.stylelintrc.json` to your home folder, either in Windows or macOS.
 2. Move `.scss.stylelintrc.json` to your home folder.
@@ -115,7 +115,7 @@ Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use th
 
 ## Copy ESLint’s Config File
 
-1. Move `.eslintrc.json` to your home folder, either in Windows or macOS.
+1. Move `.eslintrc.json` to your home folder.
 
 ---
 
@@ -128,27 +128,13 @@ Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use th
 #### Extensions
 
 1. Launch VS Code.
-2. Bring up the extensions marketplace section of VS Code by typing `⌘ + SHIFT + X` in macOS, `CNRL + SHIFT + X` in Windows.
+2. Bring up the extensions marketplace section of VS Code by typing `⌘ + SHIFT + X` in macOS, `CNTRL + SHIFT + X` in Windows.
 3. In the text box marked *Search Extensions in Marketplace*, search for then install each of the following:
 
-##### HTML linter/validator
-
 `HTMLHint.vscode-htmlhint`
-
-##### File formatter
-
 `EditorConfig.EditorConfig`
-
-##### CSS/Sass linter/validator
-
 `stylelint.vscode-stylelint`
-
-##### JavaScript linter/validator
-
 `dbaeumer.vscode-eslint`
-
-##### Markdown linter/validator
-
 `DavidAnson.vscode-markdownlint`
 
 #### Settings File
