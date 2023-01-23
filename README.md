@@ -140,7 +140,7 @@ Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use th
 #### Settings File
 
 1. Open the `visual-studio-code` folder.
-2. Open `~/Library/"Application Support"/Code/User`.
+2. Open `~/Library/"Application Support"/Code/User` (Mac) or `C:\Users\<USERNAME>\AppData\Roaming\Code\User`, where `<USERNAME>` is your Windows username (Windows).
 3. Place `settings.json` from the `visual-studio-code` folder you opened in step 1 into the `User` folder you opened in step 2.
 
 ## Sublime Text Preferences File (Mac and Windows)
