@@ -35,7 +35,7 @@ Spectacle was retired in the fall of 2019. Thus, *do not* use Spectacle on new m
 
 ## Terminal Theme and Environment Files (Mac and Windows)
 
-In order to get your environment working properly, we need to...
+In order to get your environment working properly, we’ll need to do the following...
 
 * Install a color theme into your command line environment, or CLI (Mac and Windows).
 * Install a handful of configuration files (Mac and Windows).
@@ -143,7 +143,7 @@ Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use th
 
 1. Open the `visual-studio-code` folder.
 2. Open `~/Library/"Application Support"/Code/User` (Mac) or `C:\Users\<USERNAME>\AppData\Roaming\Code\User`, where `<USERNAME>` is your Windows username (Windows).
-3. Place `settings.json` from the `visual-studio-code` folder you opened in step 1 into the `User` folder you opened in step 2.
+3. Move the `settings.json` file from the `visual-studio-code` folder you opened in step 1 into the `User` folder you opened in step 2.
 
 ---
 
