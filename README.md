@@ -91,6 +91,8 @@ There are a handful of files that start with a dot (`.`) in the folders mentione
 2. Open the `terminal/git-env-for-mac-and-windows` folder. You should see `.git_aliases`, `.git-completion.sh`, and `.git-prompt.sh`. Move these files into your home folder.
 3. Launch Cygwin.
 
+---
+
 ## Slow Cygwin Startup?
 
 If Cygwin is slow to start, read the following, which suggests two methods for fixing the problem:
@@ -142,6 +144,8 @@ Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use th
 1. Open the `visual-studio-code` folder.
 2. Open `~/Library/"Application Support"/Code/User` (Mac) or `C:\Users\<USERNAME>\AppData\Roaming\Code\User`, where `<USERNAME>` is your Windows username (Windows).
 3. Place `settings.json` from the `visual-studio-code` folder you opened in step 1 into the `User` folder you opened in step 2.
+
+---
 
 ## Sublime Text Preferences File (Mac and Windows)
 
