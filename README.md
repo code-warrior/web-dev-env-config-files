@@ -110,14 +110,18 @@ Enclosed are two configuration files that work in concert with Stylelint: `.styl
 
 Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use the included `.stylelintrc.json` to lint CSS. However, if you need to lint Sass, then you’d rename `.stylelintrc.json` → `.css.stylelintrc.json`, then rename `.scss.stylelintrc.json` → `.stylelintrc.json`. To return to linting CSS, do the reverse.
 
-1. Move `.stylelintrc.json` to your home folder, either in Windows or macOS.
-2. Move `.scss.stylelintrc.json` to your home folder.
+1. Move `.stylelintrc.json` into your home folder, either in Windows or macOS.
+2. Move `.scss.stylelintrc.json` into your home folder.
+3. Open a Terminal window (Mac) or PowerShell window (Windows).
+4. Type `npm i -g stylelint`. Mac users may get an error that starts with `npm ERR! code EACCES`. If so, run `sudo npm i -g stylelint`, which will prompt you for your computer password.
 
 ---
 
 ## Copy ESLint’s Config File (Mac and Windows)
 
-1. Move `.eslintrc.json` to your home folder.
+1. Move `.eslintrc.json` into your home folder.
+2. Open a Terminal window (Mac) or PowerShell window (Windows).
+3. Type `npm i -g eslint`. Mac users may get an error that starts with `npm ERR! code EACCES`. If so, run `sudo npm i -g eslint`, which will prompt you for your computer password.
 
 ---
 
