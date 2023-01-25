@@ -100,7 +100,7 @@ If Cygwin is slow to start, read the following, which suggests two methods for f
 
 ---
 
-## Install Stylelint’s Config Files for CSS and Sass
+## Install Stylelint’s Config Files for CSS and Sass (Mac and Windows)
 
 **Burden**: *~5 minutes*
 
@@ -115,7 +115,7 @@ Since Stylelint is looking for a file called `.stylelintrc.json`, you’d use th
 
 ---
 
-## Copy ESLint’s Config File
+## Copy ESLint’s Config File (Mac and Windows)
 
 1. Move `.eslintrc.json` to your home folder.
 
