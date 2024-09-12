@@ -66,14 +66,6 @@ if [ -e /dev/clipboard ]; then
    alias pbpaste='cat /dev/clipboard'
 fi
 
-atom () {
-   if [ $# -eq 1 ]; then
-      /cygdrive/c/Users/WINDOWS-USERNAME/AppData/Local/atom/atom.exe $(cygpath -aw .)/"$1"
-   else
-      /cygdrive/c/Users/WINDOWS-USERNAME/AppData/Local/atom/atom.exe
-   fi
-}
-
 processing () {
    if [ $# -eq 1 ]; then
       /usr/local/bin/processing-java --sketch=$(cygpath -aw .)/"$1" --run
