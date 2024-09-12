@@ -95,5 +95,3 @@ export GIT_PS1_DESCRIBE_STYLE="branch"
 #
 source ~/.git-prompt.sh
 source ~/.git-completion.sh
-
-# eval `ssh-agent -s`
